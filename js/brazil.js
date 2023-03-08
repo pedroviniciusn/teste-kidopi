@@ -13,7 +13,7 @@ const Main = {
   dataHtml: function (data) {
     return `
     <div class="state">
-      <span><strong>Estados:</strong> ${data.ProvinciaEstado.toLocaleString('pt-BR')} </span>
+      <span><strong>Estado:</strong> ${data.ProvinciaEstado.toLocaleString('pt-BR')} </span>
       <span><strong>Confirmados:</strong> ${data.Confirmados.toLocaleString('pt-BR')}</span>
       <span><strong>Mortes:</strong> ${data.Mortos.toLocaleString('pt-BR')}</span>
     </div>
