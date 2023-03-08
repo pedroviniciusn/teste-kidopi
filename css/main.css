@@ -47,6 +47,11 @@ body {
   justify-content: space-evenly;
 }
 
+.container .container_content a {
+  text-decoration: none;
+  color: var(--text);
+}
+
 .container .container_content .country {
   width: 350px;
   height: 230px;
