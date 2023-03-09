@@ -56,6 +56,9 @@ const Main = {
   },
 
   compareData: async function (data) {
+    this.cacheSelectors();
+    this.bindEvents();
+    
     let countryOneName = "";
     let totalCasesCountryOne = 0;
     let totalDeathsCountryOne = 0;
