@@ -32,7 +32,7 @@
 
       echo "
         <div>
-            <span><strong>Último accesso: </strong>$country </span> 
+            <span><strong>Último acesso: </strong>$country </span> 
             <span><strong>Data: </strong>$date</span>
         </div>
       ";
