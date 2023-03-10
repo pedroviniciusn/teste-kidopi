@@ -17,7 +17,7 @@
     <main class="container">
       <header>
         <div class="header_content">
-          <a href="main.html">Voltar</a>
+          <a href="main.php">Voltar</a>
           <h2>Canadá</h2>
           <span id="all_cases"><strong>Casos:</strong> </span>
           <span id="all_deaths"><strong>Mortes:</strong> </span>

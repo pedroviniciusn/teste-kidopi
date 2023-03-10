@@ -29,7 +29,7 @@ const Main = {
 
   countryHtml: function(data) {
     return `
-      <a href="${data.ref}.html">
+      <a href="${data.ref}.php">
         <div class="country">
           <img src="${data.picture}" alt="${data.ref}" />
           <h2>${data.name}</h2>

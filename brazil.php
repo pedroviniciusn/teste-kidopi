@@ -10,18 +10,23 @@
       href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="./css/main.css" />
+    <link rel="stylesheet" href="./css/brazil.css" />
     <title>teste kidopi</title>
   </head>
   <body>
-    <a href="compare.html">
-      <div class="compare">
-        <span>Compare Dados</span>
-      </div>
-    </a>
     <main class="container">
-      <section class="container_content"></section>
+      <header>
+        <div class="header_content">
+          <a href="main.php">Voltar</a>
+          <h2>Brasil</h2>
+          <span id="all_cases"><strong>Casos:</strong> </span>
+          <span id="all_deaths"><strong>Mortes:</strong> </span>
+        </div>
+      </header>
+      <section class="container_content">
+        <div class="state"></div>
+      </section>
     </main>
-    <script src="./js/main.js"></script>
+    <script src="./js/brazil.js"></script>
   </body>
 </html>

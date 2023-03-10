@@ -10,8 +10,6 @@ const Main = {
   cacheSelectors: function () {
     this.containerContent = document.querySelector(".container_content");
     this.country = document.querySelectorAll(".country");
-    this.allDeaths = document.querySelector("#all_deaths");
-    this.allCases = document.querySelector("#all_cases");
   },
 
   bindEvents: function () {
@@ -58,7 +56,7 @@ const Main = {
   compareData: async function (data) {
     this.cacheSelectors();
     this.bindEvents();
-    
+
     let countryOneName = "";
     let totalCasesCountryOne = 0;
     let totalDeathsCountryOne = 0;
