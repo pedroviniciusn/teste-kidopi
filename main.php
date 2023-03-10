@@ -22,6 +22,20 @@
     <main class="container">
       <section class="container_content"></section>
     </main>
+    <footer class="footer">
+      <?php 
+      include 'index.php';
+
+      [$country, $date] = data("");
+
+      echo "
+        <div>
+            <span><strong>Último accesso: </strong>$country </span> 
+            <span><strong>Data: </strong>$date</span>
+        </div>
+      ";
+      ?>
+    </footer>
     <script src="./js/main.js"></script>
   </body>
 </html>

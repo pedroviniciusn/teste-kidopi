@@ -27,6 +27,20 @@
         <div class="state"></div>
       </section>
     </main>
+    <footer class="footer">
+      <?php 
+      include 'index.php';
+
+      [$country, $date] = data("Brazil");
+
+      echo "
+        <div>
+            <span><strong>Último accesso: </strong>$country </span> 
+            <span><strong>Data: </strong>$date</span>
+        </div>
+      ";
+      ?>
+    </footer>
     <script src="./js/brazil.js"></script>
   </body>
 </html>

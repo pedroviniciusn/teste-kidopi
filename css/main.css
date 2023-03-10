@@ -96,6 +96,11 @@ body a {
   height: 100%;
 }
 
+.footer {
+  display: flex;
+  justify-content: center;
+}
+
 @media only screen and (min-width: 1000px) and (max-width: 1168px) {
   .container .container_content .country {
     width: 300px;
