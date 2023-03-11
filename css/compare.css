@@ -97,6 +97,11 @@ body {
   background: var(--text-secondary);
 }
 
+.footer {
+  display: flex;
+  justify-content: center;
+}
+
 @media screen and (max-width: 890px) {
   .container .container_content {
     width: 80%;
